@@ -73,6 +73,7 @@ class _AbonelikFormuState extends State<AbonelikFormu> {
                           _yolM = {"bilesenAdi": "Yol Seçimi Yapın"};
                           _binaM = {"bilesenAdi": "Bina Seçimi Yapın"};
                           _daireM = {"bilesenAdi": "Daire Seçimi Yapın"};
+                          setState((){});
                         },
                         child: Text("${_ilM['bilesenAdi']}"),
                         /* İstediğimiz herhangi bir widgeti buraya child olarak ekliyoruz */
